@@ -83,7 +83,7 @@ game = {
             },
 
             done: function () {
-            $.each($('input [name="question-0]":checked'), function () {
+            $.each($('input [name="question-0"]:checked'), function () {
                 if($(this).val()==questions[1].correctAnswer){
                     game.correct++;
                 } else {
@@ -92,11 +92,11 @@ game = {
             })
         }
 
-        }
+        };
 
 
 
 
 
-}
+
 
